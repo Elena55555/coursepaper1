@@ -7,9 +7,7 @@ public class Employee {
     private int department; /* отдел сотрудника*/
     private double salary; /*Зарплата сотрудника*/
 
-
 // 2.   Добавить статическую переменную-счетчик, которая будет отвечать за id.
-
     static int counter=1;
     private int id;
     //     /*Первый конструктор*/
@@ -34,7 +32,6 @@ public class Employee {
     public int getDepartment() {
         return department;
     }
-
     public double getSalary() {
         return salary;
     }
@@ -45,7 +42,6 @@ public class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
-
     @Override
     public String toString() {
         return "Employee{" +
